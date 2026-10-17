@@ -17,10 +17,10 @@ provider "aws" {
 variable "team_members" {
   type    = list(string)
   default = [
-    "stailor",
-    "jayzir",
-    "companero3",
-    "companero4"
+    "developer-api",
+    "developer-data",
+    "devops-engineer",
+    "qa-engineer"
   ]
 }
 
